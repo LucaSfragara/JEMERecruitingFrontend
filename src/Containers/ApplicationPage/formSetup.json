@@ -1,0 +1,151 @@
+{"formSetup":{
+    "sections": [
+        {
+            "title": "Informazioni Generali",
+            "key": "generalInfo",
+            "inputs":[
+                {
+                    "key": "name",
+                    "label": "Nome",
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null
+                },
+                {
+                    "key": "surname",
+                    "label": "Cognome", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null
+                },
+                {
+                    "key": "mail",
+                    "label": "Email", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null
+                },
+                {
+                    "key": "mail",
+                    "label": "Email", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null
+                },
+                {
+                    "key": "confirmMail",
+                    "label": "Email", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null
+                }
+            ]
+        },
+        {
+            "title": "Dati anagrafici",
+            "key": "anagraphicalData",
+            "inputs": [
+                {
+                    "key": "dateOfBirth",
+                    "label": "Data di nascita", 
+                    "placeholder": "(gg-mm-aaaa)",
+                    "mandatory": true,
+                    "value": null        
+                },
+                {
+                    "key": "telephone",
+                    "label": "Telefono", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null     
+                },
+                {
+                    "key": "mail",
+                    "label": "Email", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null     
+                },
+                {
+                    "key": "IDBocconi",
+                    "label": "Id Bocconi", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null     
+                }
+            
+            ]
+        },
+        {
+            "title": "Studi",
+            "key": "studies",
+            "inputs": [
+                {
+                    "key": "yearOfCourse",
+                    "label": "Anno di corso", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null        
+                },
+                {
+                    "key": "bachelor",
+                    "label": "Corso di Laurea Triennale", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null     
+                },
+                {
+                    "key": "master",
+                    "label": "Master/Specialistica", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null     
+                }
+            ]
+        },
+        {
+            "title": "Lingue",
+            "key": "languages",
+            "inputs": [
+                {
+                    "key": "italian",
+                    "label": "Livello Conoscenza Italiano", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null        
+                },
+                {
+                    "key": "english",
+                    "label": "Livello Conoscenza Inglese", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null     
+                }
+            ]
+        },
+        {
+            "title": "Altre informazioni",
+            "key": "otherInfo",
+            "inputs": [
+                {
+                    "key": "ITSkills",
+                    "label": "Competenze IT avanzate", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null        
+                },
+                {
+                    "key": "socialMediaSkills",
+                    "label": "Competenze avanzate di social media management", 
+                    "placeholder": null,
+                    "mandatory": true,
+                    "value": null     
+                }
+            ]
+        }
+
+
+
+    ]
+}
+}
