@@ -4,11 +4,11 @@ import FormSection from './FormSection/FormSection'
 
 const Form = (props) => {
     const setup = props.setup
-    console.log(setup.sections.map((section) => section))
 
     return(
         <div>
-            {setup.sections.map((section) => <FormSection props = {section}/>)}
+            {setup.sections.map((section) => <FormSection section = {section} inputChangeHandler = {props.inputChangeHandler}/>)}
+            <button onClick = {props.submitHandler}> Submit </button>
         </div>
     )
 }

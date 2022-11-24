@@ -25,16 +25,10 @@
                     "mandatory": true,
                     "value": null
                 },
-                {
-                    "key": "mail",
-                    "label": "Email", 
-                    "placeholder": null,
-                    "mandatory": true,
-                    "value": null
-                },
+                
                 {
                     "key": "confirmMail",
-                    "label": "Email", 
+                    "label": "Confirm Mail", 
                     "placeholder": null,
                     "mandatory": true,
                     "value": null
