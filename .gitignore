@@ -10,6 +10,7 @@
 
 # production
 /build
+.jeme-recruitment-key.pem
 
 # misc
 .DS_Store

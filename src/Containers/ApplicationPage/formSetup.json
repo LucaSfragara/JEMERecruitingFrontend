@@ -5,7 +5,7 @@
             "key": "generalInfo",
             "inputs":[
                 {
-                    "key": "name",
+                    "key": "naeme",
                     "label": "Nome",
                     "placeholder": null,
                     "mandatory": true,
@@ -92,7 +92,7 @@
                     "key": "master",
                     "label": "Master/Specialistica", 
                     "placeholder": null,
-                    "mandatory": true,
+                    "mandatory": false,
                     "value": null     
                 }
             ]

@@ -6,7 +6,7 @@ const Form = (props) => {
     const setup = props.setup
 
     return(
-        <div>
+        <div className = {styles.Form}>
             {setup.sections.map((section) => <FormSection section = {section} inputChangeHandler = {props.inputChangeHandler}/>)}
             <button onClick = {props.submitHandler}> Submit </button>
         </div>
